@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="edu.washington.vicky37.lifecounter.MainActivity"
+    >
+
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/player1"
+            android:layout_weight="1">
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Player1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/player1Profile"
+                android:layout_marginTop="10dp"/>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <Button
+                android:text="@string/add"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/player1button1"
+                android:layout_weight="1"/>
+
+            <Button
+                android:text="@string/minus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/player1button2"
+                android:layout_weight="1"/>
+
+            <Button
+                android:text="@string/addFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/player1button3"
+                android:layout_weight="1"/>
+
+            <Button
+                android:text="@string/minusFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/player1button4"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        </LinearLayout>
+
+            <TextView
+                android:text="@string/lifeTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player1LifeTotal"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/player2"
+            android:layout_weight="1">
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:text="Player2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    android:id="@+id/player2Profile"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <Button
+                        android:text="@string/add"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/player2button1"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/minus"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/player2button2"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/addFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/player2button3"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/minusFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/player2button4"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/lifeTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player2LifeTotal"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/player3"
+            android:layout_weight="1">
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:text="Player3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    android:id="@+id/player3Profile"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <Button
+                        android:text="@string/add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player3button1"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/minus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player3button2"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/addFive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player3button3"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/minusFive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player3button4"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/lifeTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player3LifeTotal"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/player4"
+            android:layout_weight="1">
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:text="Player4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    android:id="@+id/player4Profile"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <Button
+                        android:text="@string/add"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player4button1"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/minus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player4button2"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/addFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player4button3"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:text="@string/minusFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player4button4"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/lifeTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player4LifeTotal"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alertLabel"
+        android:textAllCaps="false"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+

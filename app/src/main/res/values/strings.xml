@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Life Counter</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="addFive">+5</string>
+    <string name="minusFive">-5</string>
+    <string name="lifeTotal">Life Total: 20</string>
+</resources>
