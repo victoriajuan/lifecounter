@@ -5,4 +5,8 @@
     <string name="addFive">+5</string>
     <string name="minusFive">-5</string>
     <string name="lifeTotal">Life Total: 20</string>
+    <string name="player1">Player1: </string>
+    <string name="player2">Player2: </string>
+    <string name="player3">Player3: </string>
+    <string name="player4">Player4: </string>>
 </resources>
