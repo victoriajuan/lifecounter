@@ -24,7 +24,7 @@
         <LinearLayout android:layout_height="wrap_content"
             android:layout_width="match_parent">
             <TextView
-                android:text="Player1"
+                android:text="@string/player1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_launcher"
@@ -82,7 +82,7 @@
             <LinearLayout android:layout_height="wrap_content"
                 android:layout_width="match_parent">
                 <TextView
-                    android:text="Player2"
+                    android:text="@string/player2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@mipmap/ic_launcher"
@@ -140,7 +140,7 @@
             <LinearLayout android:layout_height="wrap_content"
                 android:layout_width="match_parent">
                 <TextView
-                    android:text="Player3"
+                    android:text="@string/player3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@mipmap/ic_launcher"
@@ -198,7 +198,7 @@
             <LinearLayout android:layout_height="wrap_content"
                 android:layout_width="match_parent">
                 <TextView
-                    android:text="Player4"
+                    android:text="@string/player4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@mipmap/ic_launcher"
@@ -252,7 +252,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/alertLabel"
         android:textAllCaps="false"
-        android:layout_weight="1"/>
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"/>
 
 </LinearLayout>
 
